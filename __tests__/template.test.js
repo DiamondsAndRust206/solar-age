@@ -1,6 +1,6 @@
-import Template from './../src/js/template.js';
+import PlanetaryAge from './../src/js/planetaryAge.js';
 
-describe('Template', () => {
+describe('PlanetaryAge', () => {
 
   test('should.....', () => {
     const triangle = new Triangle(2,4,5);
