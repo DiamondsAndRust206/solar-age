@@ -15,7 +15,8 @@ export default class PlanetaryAge {
   }
 
   marsAge() {
-
+    let newMarsAge = Math.round(this.age / 1.88);
+    return newMarsAge;
   }
 
   jupiterAge() {
