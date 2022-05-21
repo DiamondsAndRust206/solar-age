@@ -68,4 +68,11 @@ describe('PlanetaryAge', () => {
     expect(lifeLeft).toEqual(56);
   });
 
+  test('should give mars absolute value of age minus expectancy when age is the larger number', () => {
+    newAge = new PlanetaryAge(150);
+    let newMarsAge = newAge.marsAge();
+    newAge = new PlanetaryAge(newMarsAge, 77);
+    let lifeLeft = newAge.marsLifeExpect();
+    expect(lifeLeft).toEqual(3);
+  });
 });
