@@ -37,6 +37,10 @@ export default class PlanetaryAge {
     return newMarsAge;
   }
 
+  marsLifeExpect() {
+    
+  }
+
   jupiterAge() {
     let newJupiterAge = Math.round(this.age / 11.86);
     return newJupiterAge;
