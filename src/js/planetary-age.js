@@ -52,7 +52,8 @@ export default class PlanetaryAge {
   }
 
   jupiterLifeExpect() {
-    
+    let jupiterLifeLeft = (this.expectancy - this.age);
+    return jupiterLifeLeft;
   }
 
 
