@@ -10,7 +10,9 @@ export default class PlanetaryAge {
   }
 
   mercLifeExpect() {
+    let mercLifeLeft = (this.expectancy - this.age);
 
+    return mercLifeLeft;
   }
 
   venusAge() {
