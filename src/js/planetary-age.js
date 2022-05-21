@@ -51,5 +51,9 @@ export default class PlanetaryAge {
     return newJupiterAge;
   }
 
+  jupiterLifeExpect() {
+    
+  }
+
 
 }

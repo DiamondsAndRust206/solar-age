@@ -75,4 +75,12 @@ describe('PlanetaryAge', () => {
     let lifeLeft = newAge.marsLifeExpect();
     expect(lifeLeft).toEqual(3);
   });
+
+  test('should determine life left on jupiter by subtracting age from exspectancy', () => {
+    newAge = new PlanetaryAge(50);
+    let newJupiterAge = newAge.jupiterAge();
+    newAge = new PlanetaryAge(newJupiterAge, 77);
+    let lifeLeft = newAge.jupiterLifeExpect();
+    expect(lifeLeft).toEqual(73);
+  });
 });
