@@ -13,4 +13,10 @@ describe('PlanetaryAge', () => {
     let newMercuryAge = newAge.mercuryAge();
     expect(newMercuryAge).toEqual(208);
   });
+
+  test('should return age on venus rounded to a whole number', () => {
+    newAge = new PlanetaryAge(50);
+    let newVenusAge = newAge.venusAge();
+    expect(newVenusAge).toEqual(80);
+  });  
 });
