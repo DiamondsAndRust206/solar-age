@@ -5,6 +5,7 @@ export default class PlanetaryAge {
   }
   
   mercuryAge() {
-  
+    let newMercuryAge = Math.round(this.age / .24);
+    return newMercuryAge;
   }
 }
