@@ -39,6 +39,10 @@ export default class PlanetaryAge {
 
   marsLifeExpect() {
     let marsLifeLeft = (this.expectancy - this.age);
+    if(marsLifeLeft < 0) {
+      let marsLifeLeftAbs = Math.abs(marsLifeLeft);
+      return marsLifeLeftAbs;
+    }
     return marsLifeLeft;
   }
 
