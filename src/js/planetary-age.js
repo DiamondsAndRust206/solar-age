@@ -38,7 +38,8 @@ export default class PlanetaryAge {
   }
 
   marsLifeExpect() {
-    
+    let marsLifeLeft = (this.expectancy - this.age);
+    return marsLifeLeft;
   }
 
   jupiterAge() {
