@@ -20,6 +20,7 @@ export default class PlanetaryAge {
   }
 
   jupiterAge() {
-
+    let newJupiterAge = Math.round(this.age / 11.86);
+    return newJupiterAge;
   }
 }
