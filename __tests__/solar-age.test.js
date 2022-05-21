@@ -52,10 +52,12 @@ describe('PlanetaryAge', () => {
     expect(lifeLeft).toEqual(29);
   });
 
-  // test("should give venus's absolute value of age minus expectancy when age is the larger number", () => {
-  //   newAge = new PlanetaryAge(50, 77);
-  //   let lifeLeft = newAge.venusLifeExpect();
-  //   expect(lifeLeft).toEqual(4);
-  // });
+  test("should give venus's absolute value of age minus expectancy when age is the larger number", () => {
+    newAge = new PlanetaryAge(50);
+    let newVenusAge = newAge.venusAge();
+    newAge = new PlanetaryAge(newVenusAge, 77);
+    let lifeLeft = newAge.venusLifeExpect();
+    expect(lifeLeft).toEqual(4);
+  });
 
 });
