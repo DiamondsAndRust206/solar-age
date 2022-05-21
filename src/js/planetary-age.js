@@ -10,7 +10,8 @@ export default class PlanetaryAge {
   }
 
   venusAge() {
-
+    let newVenusAge = Math.round(this.age / .62);
+    return newVenusAge;
   }
 
   marsAge() {
@@ -18,6 +19,6 @@ export default class PlanetaryAge {
   }
 
   jupiterAge() {
-    
+
   }
 }
