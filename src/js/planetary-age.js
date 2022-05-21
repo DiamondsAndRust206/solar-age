@@ -4,7 +4,7 @@ export default class PlanetaryAge {
     this.expectancy = expectancy;
   }
   
-  method() {
+  mercuryAge() {
   
   }
 }
