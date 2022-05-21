@@ -83,4 +83,12 @@ describe('PlanetaryAge', () => {
     let lifeLeft = newAge.jupiterLifeExpect();
     expect(lifeLeft).toEqual(73);
   });
+
+  test("should give jupiter's absolute value of age minus expectancy when age is the larger number", () => {
+    newAge = new PlanetaryAge(1000);
+    let newJupiterAge = newAge.jupiterAge();
+    newAge = new PlanetaryAge(newJupiterAge, 77);
+    let lifeLeft = newAge.jupiterLifeExpect();
+    expect(lifeLeft).toEqual(7);
+  });
 });
