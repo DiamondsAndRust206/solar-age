@@ -23,6 +23,13 @@ export default class PlanetaryAge {
     return newVenusAge;
   }
 
+  venusLifeExpect() {
+    // let newAge = new PlanetaryAge(50, 77);
+    // let newVenusAge = newAge.venusAge();
+    // let yearsLeft = (this.expectancy - newVenusAge);
+    // return yearsLeft;
+  }
+
   marsAge() {
     let newMarsAge = Math.round(this.age / 1.88);
     return newMarsAge;

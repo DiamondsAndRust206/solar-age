@@ -32,7 +32,7 @@ describe('PlanetaryAge', () => {
     expect(newJupiterAge).toEqual(4);
   });
 
-  test('should determine life left by subtracting life from exspectancy', () => {
+  test('should determine life left on mercury by subtracting life from exspectancy', () => {
     newAge = new PlanetaryAge(50, 77);
     let lifeLeft = newAge.mercLifeExpect();
     expect(lifeLeft).toEqual(27);
@@ -42,6 +42,12 @@ describe('PlanetaryAge', () => {
     newAge = new PlanetaryAge(85, 77);
     let lifeLeft = newAge.mercLifeExpect();
     expect(lifeLeft).toEqual(8);
+  });
+
+  test('should determine life left on venus by subtracting life from exspectancy', () => {
+    newAge = new PlanetaryAge(50, 77);
+    let lifeLeft = newAge.venusLifeExpect();
+    expect(lifeLeft).toEqual(-4);
   });
 
 });
