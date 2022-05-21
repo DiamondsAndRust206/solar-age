@@ -38,10 +38,10 @@ describe('PlanetaryAge', () => {
     expect(lifeLeft).toEqual(27);
   });
 
-  // test('should give the absolute value of age minus expectancy when age is the larger number', () => {
-  //   newAge = new PlanetaryAge(85, 77);
-  //   let lifeLeft = newAge.mercLifeExpect();
-  //   expect(lifeLeft).toEqual(8);
-  // });
+  test('should give the absolute value of age minus expectancy when age is the larger number', () => {
+    newAge = new PlanetaryAge(85, 77);
+    let lifeLeft = newAge.mercLifeExpect();
+    expect(lifeLeft).toEqual(8);
+  });
 
 });
