@@ -25,4 +25,10 @@ describe('PlanetaryAge', () => {
     let newMarsAge = newAge.marsAge();
     expect(newMarsAge).toEqual(27);
   });
+
+  test('should return age on jupiter rounded to a whole number', () => {
+    newAge = new PlanetaryAge(50);
+    let newJupiterAge = newAge.jupiterAge();
+    expect(newJupiterAge).toEqual(4);
+  });
 });
