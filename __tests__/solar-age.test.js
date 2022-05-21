@@ -33,16 +33,18 @@ describe('PlanetaryAge', () => {
   });
 
   test('should determine life left on mercury by subtracting age from exspectancy', () => {
-    newAge = new PlanetaryAge(50, 77);
-    let lifeLeft = newAge.mercLifeExpect();
-    expect(lifeLeft).toEqual(27);
+    newAge = new PlanetaryAge(16);
+    let newMercuryAge = newAge.mercuryAge();
+    newAge = new PlanetaryAge(newMercuryAge, 77);
+    let mercLifeLeft = newAge.mercLifeExpect();
+    expect(mercLifeLeft).toEqual(10);
   });
 
-  test('should give the absolute value of age minus expectancy when age is the larger number', () => {
-    newAge = new PlanetaryAge(85, 77);
-    let lifeLeft = newAge.mercLifeExpect();
-    expect(lifeLeft).toEqual(8);
-  });
+  // test('should give the absolute value of age minus expectancy when age is the larger number', () => {
+  //   newAge = new PlanetaryAge(85, 77);
+  //   let lifeLeft = newAge.mercLifeExpect();
+  //   expect(lifeLeft).toEqual(8);
+  // });
 
   test('should determine life left on venus by subtracting age from exspectancy', () => {
     newAge = new PlanetaryAge(30);
