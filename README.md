@@ -13,6 +13,7 @@ _No link to solar-age. This is javascript only_
 * NPM
 * Node.js
 * Webpack
+* Jest
 * babel
 * eslint
 
@@ -26,9 +27,9 @@ _ This code was created for an independent project at Epicodus. This is only jav
 * In a shell program, clone the copied repository to your desktop (git clone URL).
 * Open the newly cloned directory named "solar-age."
 * Navigate your terminal to the root directory of the project.
-* Run "npm install" in your terminal.
+* Run "npm install" in your terminal. Then npm run build.
 * By running "npm test" you will be able to test the business logic functions and prototypes.
-* This is not a full functioning web application. So no need to npm run build or npm run start.
+* This is not a full functioning web application. So no need to npm run start.
 
 ## Know Bugs
 
