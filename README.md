@@ -1,29 +1,34 @@
-# **Mr. Robogers Neighborhood**
+# **Solar Age Calculator**
 
 #### By Timothy Ryan Gibson
-#### _A simple web application to creat a list of numbers based on the users input and replace the values accordingly._
+#### _This is an independent project with prototypes and functions to calculate a users age on other planets._
 
-_Link to [mr-roboger](https://diamondsandrust206.github.io/mr-roboger/)_
+_No link to solar-age. This is javascript only_
 
 ## Technologies used
 
 * HTML
-* CSS
 * VS Code
 * Javascript
-* jQuery
-* Bootstrap
+* NPM
+* Node.js
+* Webpack
+* babel
+* eslint
 
 ## Description
 
-_This web application will ask the user for a number. The application will create a list of numbers starting with zero all the way to the respective input number. The number 3 will be replaced with "Won't you be my neighbor?", the number 2 will be replaced with "Boop!", and the number 1 will be replaced with "Beep!". The hierarchy is such that 3 takes precedent over 2 and 1, and the number 2 takes precedent of 1. If a number has more than one digit the higher number of the three will be replaced with the respective substitution._
+_ This code was created for an independent project at Epicodus. This is only javascript code. All functions and prototypes pass all tests and branches for a %100 coverage. There are prototypes to figure out peoples age on Mercury, Venus, Mars & Jupiter.Life expectancy is given at 77 which is the life expectancy of a male. If age is passed the expectancy, the output will be how many years passed the expectancy the person's age is. This will be a positive number._
 
 ## Setup/Installation Requirements
 
-* At https://github.com/DiamondsAndRust206/mr-roboger copy the repository URL named "mr-robogers". You can do this by clicking the green Code button and copy the URL from there.
+* At https://github.com/DiamondsAndRust206/solar-age copy the repository URL named "solar-age". You can do this by clicking the green Code button and copy the URL from there.
 * In a shell program, clone the copied repository to your desktop (git clone URL).
-* Open the newly cloned directory named "mr-robogers".
-* From this directory, open index.html
+* Open the newly cloned directory named "solar-age."
+* Navigate your terminal to the root directory of the project.
+* Run "npm install" in your terminal.
+* By running "npm test" you will be able to test the business logic functions and prototypes.
+* This is not a full functioning web application. So no need to npm run build or npm run start.
 
 ## Know Bugs
 
