@@ -19,7 +19,7 @@ _No link to solar-age. This is javascript only_
 
 ## Description
 
-_ This code was created for an independent project at Epicodus. This is only javascript code. All functions and prototypes pass all tests and branches for a %100 coverage. There are prototypes to figure out peoples age on Mercury, Venus, Mars & Jupiter.Life expectancy is given at 77 which is the life expectancy of a male. If age is passed the expectancy, the output will be how many years passed the expectancy the person's age is. This will be a positive number._
+_ This code was created for an independent project at Epicodus. This is only javascript code. All functions and prototypes pass all tests and branches for a %100 coverage. There are prototypes to figure out peoples age on Mercury, Venus, Mars & Jupiter. Life expectancy is given at 77 which is the life expectancy of a male. If age is passed the expectancy, the output will be how many years passed the expectancy the person's age is. This will be a positive number._
 
 ## Setup/Installation Requirements
 
