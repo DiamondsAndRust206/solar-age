@@ -7,7 +7,6 @@ _No link to solar-age. This is javascript only_
 
 ## Technologies used
 
-* HTML
 * VS Code
 * Javascript
 * NPM
